@@ -28,7 +28,7 @@ class SignalrSvc {
     private val storageAccount: CloudStorageAccount = CloudStorageAccount.parse(storageConnectionString)
     private val tableClient: CloudTableClient = storageAccount.createCloudTableClient()
     private val deviceStateTable: CloudTable = tableClient.getTableReference("DeviceState")
-    private val partitionKey: String = System.getenv("Partitionkey")
+    private val partitionKey: String = System.getenv("PartitionKey")
 
 
     @FunctionName("negotiate")

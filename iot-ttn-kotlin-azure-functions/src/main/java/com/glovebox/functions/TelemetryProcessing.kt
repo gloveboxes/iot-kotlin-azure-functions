@@ -33,7 +33,7 @@ class TelemetryProcessing {
     private val calibrationTable: CloudTable = tableClient.getTableReference("Calibration")
     private var top: TableOperation? = null
 
-    private val partitionKey: String = System.getenv("Partitionkey")
+    private val partitionKey: String = System.getenv("PartitionKey")
     private val signalRUrl: String = System.getenv("AzureSignalRUrl")
 
 
