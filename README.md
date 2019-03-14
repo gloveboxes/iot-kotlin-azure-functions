@@ -1,4 +1,6 @@
-# Azure Functions with Kotlin
+# Integration IoT with Kotlin Azure Functions and SignalR
+
+![Architectural diagram](./docs/resources/kotlin-azure-functions.png)
 
 ## Storage Emulation
 
