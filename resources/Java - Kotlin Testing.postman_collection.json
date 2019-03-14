@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "d97aaee4-7ada-4ef2-97a0-6e4ba5064c80",
+		"name": "Java - Kotlin Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:7071/api/HttpTrigger-Java",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"app_id\":\"Dave\", \"dev_id\":\"wemos\", \"counter\":1, \"payload_raw\":\"payload\", \"payload_fields\": \r\n    {\"humidity\": 3.2, \r\n     \"barometric_pressure_2\": 1400, \r\n     \"temperature_1\": 22 }}"
+				},
+				"url": {
+					"raw": "https://glovebox-functions-20190308112300508.azurewebsites.net/api/TheThingsNetwork?code=haRLV4iCdAkX2Q7uopG0jUQAci5/0IGqpY0BnqihZzfVhNi8lnjduw==",
+					"protocol": "https",
+					"host": [
+						"glovebox-functions-20190308112300508",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"TheThingsNetwork"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "haRLV4iCdAkX2Q7uopG0jUQAci5/0IGqpY0BnqihZzfVhNi8lnjduw=="
+						}
+					]
+				},
+				"description": "java kotlin ttn test"
+			},
+			"response": []
+		}
+	]
+}
