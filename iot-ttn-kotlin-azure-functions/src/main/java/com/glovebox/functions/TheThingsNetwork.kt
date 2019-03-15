@@ -11,6 +11,7 @@ import com.google.gson.*
  * Azure Functions with HTTP Trigger.
  */
 class TheThingsNetwork {
+    private val ttnAppId: String = System.getenv("TheThingsNetworkAppId")
 
     @FunctionName("TheThingsNetwork")
     fun run(
@@ -22,7 +23,11 @@ class TheThingsNetwork {
         val body = request.body.get()
         val ttn = gson.fromJson<TtnEntity>(body, TtnEntity::class.java)
 
-        context.logger.info("Message received from device " + ttn.dev_id)
+        context.logger.info("Message received from Things Network Application ID ${ttn.app_id} for device ${ttn.dev_id}")
+
+        if (ttn.app_id == null || !ttn.app_id.equals(ttnAppId)){
+            return request.createResponseBuilder(HttpStatus.BAD_REQUEST).build()
+        }
 
         val environment = EnvironmentEntity()
         environment.DeviceId = ttn.dev_id
