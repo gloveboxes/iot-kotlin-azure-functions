@@ -29,11 +29,11 @@ docker run -d --restart always -t -p 10000:10000 -p 10001:10001 -p 10002:10002 -
 
 ### Java pom.xml
 
-https://docs.microsoft.com/en-us/java/api/overview/azure/maven/azure-functions-maven-plugin/readme?view=azure-java-stable#common-configuration
+https://docs.microsoft.com/java/api/overview/azure/maven/azure-functions-maven-plugin/readme?view=azure-java-stable&WT.mc_id=iot-0000-dglover#common-configuration
 
-https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-maven-intellij
+https://docs.microsoft.com/azure/azure-functions/functions-create-maven-intellij?WT.mc_id=iot-0000-dglover
 
-https://docs.microsoft.com/en-us/java/api/overview/azure/maven/azure-functions-maven-plugin/readme?view=azure-java-stable
+https://docs.microsoft.com/java/api/overview/azure/maven/azure-functions-maven-plugin/readme?view=azure-java-stable&WT.mc_id=iot-0000-dglover
 
 https://github.com/Azure/azure-functions-java-library
 
@@ -95,7 +95,7 @@ https://github.com/Azure/azure-service-bus-java
 
 note on how to determine the latest version of the extensions
 
-https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-register#local-development-azure-functions-core-tools
+https://docs.microsoft.com/azure/azure-functions/functions-bindings-register?WT.mc_id=iot-0000-dglover#local-development-azure-functions-core-tools
 
 pom.xml
 
@@ -123,11 +123,11 @@ https://www.jetbrains.com/help/idea/library.html
 
 https://github.com/Azure/azure-docs-sdk-java/blob/master/docs-ref-conceptual/intellij/azure-toolkit-for-intellij-installation.md
 
-https://docs.microsoft.com/en-us/java/azure/intellij/azure-toolkit-for-intellij?view=azure-java-stable
+https://docs.microsoft.com/java/azure/intellij/azure-toolkit-for-intellij?view=azure-java-stable&WT.mc_id=iot-0000-dglover
 
-https://docs.microsoft.com/en-au/java/azure/java-supported-jdk-runtime?view=azure-java-stable
+https://docs.microsoft.com/java/azure/java-supported-jdk-runtime?view=azure-java-stable&WT.mc_id=iot-0000-dglover
 
-[Azure Toolkit for IntelliJ](https://docs.microsoft.com/en-us/java/azure/intellij/azure-toolkit-for-intellij?view=azure-java-stable)
+[Azure Toolkit for IntelliJ](https://docs.microsoft.com/java/azure/intellij/azure-toolkit-for-intellij?view=azure-java-stable&WT.mc_id=iot-0000-dglover)
 
 File -> Settings -> Plugins -> Browse (for Azure)
 
@@ -138,9 +138,9 @@ import com.microsoft.azure.servicebus.*;
 
 ## References
 
-[Azure Functions Java developer guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-java)
-[Create your first Azure function with Java and IntelliJ (preview)](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-maven-intellij)
-[Create your first function with Java and Maven](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-java-maven)
+[Azure Functions Java developer guide](https://docs.microsoft.com/azure/azure-functions/functions-reference-java?WT.mc_id=iot-0000-dglover)
+[Create your first Azure function with Java and IntelliJ (preview)](https://docs.microsoft.com/azure/azure-functions/functions-create-maven-intellij?WT.mc_id=iot-0000-dglover)
+[Create your first function with Java and Maven](https://docs.microsoft.com/azure/azure-functions/functions-create-first-java-maven?WT.mc_id=iot-0000-dglover)
 
 
 
@@ -170,4 +170,4 @@ func extensions install -p Microsoft.Azure.WebJobs.Extensions.Storage -v 3.0.4
 https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions.Storage
 
 
-https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-table
+https://docs.microsoft.com/azure/azure-functions/functions-bindings-storage-table?WT.mc_id=iot-0000-dglover
